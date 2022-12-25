@@ -17,6 +17,8 @@ task:
     dependent: no
     remove_one_hop: yes
     symmetric: yes
+    attention_mode: Bilinear
+    num_head: 1
   criterion: bce
   num_negative: 1
   strict_negative: yes
