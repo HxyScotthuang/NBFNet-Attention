@@ -45,3 +45,4 @@ $$
 To run the code for each attention variant, just change the config file .yaml.  
       Attention-mode = Bilinear/GAT/GAT_Sep, and num_head indicates the number of head. 
 Note that we only support num_head=1 for Bilinear Attention-mode
+Also, to make attention works, we need to set $\texttt{AGGREGATE}$ = sum
