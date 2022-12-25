@@ -49,4 +49,4 @@ Note that we only support num_head=1 for Bilinear Attention-mode.
 
 Also, to make attention works, we need to set $\texttt{AGGREGATE}$ = sum
 
-To run the code, see https://github.com/HxyScotthuang/NBFNet-Attention/blob/main/Original_ReadMe.md
+To run the code, see Original_ReadMe.md, or visit https://github.com/DeepGraphLearning/NBFNet
