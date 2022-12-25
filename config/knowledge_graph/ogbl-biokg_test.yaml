@@ -11,11 +11,13 @@ task:
     input_dim: 32
     hidden_dims: [32, 32, 32, 32, 32, 32]
     message_func: distmult
-    aggregate_func: pna
+    aggregate_func: sum
     short_cut: yes
     layer_norm: yes
     dependent: yes
     remove_one_hop: yes
+    attention_mode: Bilinear
+    num_head: 1
   criterion: bce
   evaluator:
     class: Evaluator
